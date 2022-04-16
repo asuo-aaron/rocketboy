@@ -215,7 +215,7 @@ a:link {
 
 @media screen and (max-width:360px) {
     a.link.dim.f5.f5-1.dib.mr3.mr4-1{
-        font-size: 0.76em;
+        font-size:16px;
     }
     h1.title{
         font-size: 3.8rem;
