@@ -214,16 +214,27 @@ a:link {
 }
 
 @media screen and (max-width:360px) {
-    a.link.dim.f5.f5-1.dib.mr3.mr4-1{
-        font-size:16px;
+    nav.navbar.ph5-1.w-100.pa3.border-box{
+        padding-right: 20px;
     }
     h1.title{
-        font-size: 3.8rem;
+        font-size: 3.7rem;
     }
     h2.intro{
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width:400px) {
+    nav.navbar{
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+    h1.title{
+        font-size: 3.8rem;
+    }
+}
+    
 
 /**********  ABOUT-ME***************/
 
